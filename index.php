@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?php echo "Hello Docker and Jenkins"; ?>
+<?php echo "Hello Docker and Jenkins !!"; ?>
 <br/><br/>
 <?php $dir = "uploads/*.png";
 //get the list of all files with .jpg extension in the directory and safe it in an array named $images
