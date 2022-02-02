@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "docker build -t vikasdsdocker/myfirstpipeline:%BUILD_NUMBER% F:\xampp\htdocs\devops\JENKINS-SLAVE\SLAVE-2\workspace\My-First-Pipeline"
+                bat "docker build -t vikasdsdocker/myfirstpipeline:%BUILD_NUMBER% F:\\xampp\\htdocs\\devops\\JENKINS-SLAVE\\SLAVE-2\\workspace\\My-First-Pipeline"
             }
         }
         stage('Deploy') {
