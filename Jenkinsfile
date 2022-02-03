@@ -2,7 +2,7 @@ pipeline {
     agent { label "Slave-2" }
 
     environment {
-        PREVIOUS_BUILD_NUMBER = '%BUILD_NUMBER%'-1
+        PREVIOUS_BUILD_NUMBER = %BUILD_NUMBER%-1
     }
     stages {
         stage('Build') {
